@@ -1,8 +1,10 @@
 * {
   font-family: merriweather-sans;
+  text-align: center;
 }
 
 nav {
   background-color: #000;
   color: #fff;
+  width: 100%;
 }
