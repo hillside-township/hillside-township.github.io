@@ -1,11 +1,5 @@
 * {
-  font-family: merriweather-sans;
   text-align: center;
-  overflow-x: hidden;
-}
-
-body {
-  background-color: antiquewhite;
 }
 
 nav {
@@ -30,19 +24,4 @@ a:hover {
   color: #7a0808;
   text-shadow: .8px .8px aliceblue;
   font-size: 28px;
-}
-
-#thehead {
-  margin-top: 50px;
-  font-size: 3em;
-  color: #276092;
-  text-shadow: 2px 2px #444444;
-}
-
-.newsflash {
-  border: outset 8px #1c85e1;
-  background-color: #1e3800;
-  padding: 8px;
-  margin: 8px;
-  color: #fff;
 }
