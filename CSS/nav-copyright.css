@@ -4,6 +4,7 @@
   overflow-x: hidden;
 }
 
+
 nav {
   background-color: black;
   font-weight: bold;
@@ -26,6 +27,14 @@ a:hover {
   color: #7a0808;
   text-shadow: .8px .8px aliceblue;
   font-size: 28px;
+}
+
+.copyright {
+  color: #fff;
+  background-color: black;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px;
 }
 
 ::-webkit-scrollbar {
