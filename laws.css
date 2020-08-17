@@ -1,3 +1,43 @@
+nav {
+  background-color: black;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  margin: -30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: times;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7a0808;
+  text-shadow: .8px .8px aliceblue;
+  font-size: 28px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+h2 {
+  color: #dc8a00;
+}
+
 h1 {
-  color: lightorange;
+  color: #dc8a00;
+  text-align: center
 }
