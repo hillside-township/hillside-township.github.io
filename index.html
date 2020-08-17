@@ -1,0 +1,276 @@
+<!-- Copyright meeeeee 2020 A.D.
+NO LOITERING      GO AWAY       BEWARE OF DOG
+You won't learn anything from snooping around here. It's main.js you want to look at.-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Gold Rush</title>
+  </head>
+  <body>
+    <!--  <img class="smallgold" title="Gold!" src="C:\Users\theho\OneDrive\Documents\GitHub\Squirrel-314.github.io\Images\goldcoin.png" alt="Gold!">  -->
+<!--=========================================================
+          Gain Section
+==========================================================-->
+<div id="leftplease">
+    <div id="gain">
+      <p id="goldMined" class="gold-mined">0 Gold Mined</p>
+      <p id="gps">0 Gold Per Second</p>
+      <p id="gpc">0 Gold Per Click</p>
+      <img title="Tap the gold to magically make gold appear. Logic at it's finest." id="gollllld" src="Images/astroid.png" alt="Click for Gold!" onclick="collectGold()">
+      <p id="playerrName">Random Player's Mine</p>
+    </div>
+</div>
+<!-- =========================================================
+          Upgrades, Acheivements, Settings, and News
+==========================================================-->
+<div id="centerplease">
+  <div id="maingamecenter">
+      <p id="news" class="boxi" >You start your search for fame and gold with nothing but a rusty pickaxe.</p><!--Your adventure begins when a huge gold-laden astroid lands in your backyard. -->
+    <details open class="boxi" id="box1">
+      <summary>Research</summary>
+      <div id="upgrades" >
+        <ul>
+          <li aria-label="Cost 100 Gold" id="a1" onclick="a1()" class="UP">Hand of Fate!<p class="why">Fate is with you!</p><p class="more">Clicking revenue x2</p></li>
+          <li aria-label="Cost 500 Gold" id="a2" onclick="a2()" class="UP">New Tool Material!<p class="why">Complete with dubius origins!</p><p class="more">Clicking revenue x2</p></li>
+          <li aria-label="Cost 1,000 Gold" id="a3" onclick="a3()" class="UP">Golden Fingers!<p class="why">Clicking gold with gold!</p><p class="more">Clicking revenue x2</p></li>
+          <li aria-label="Cost 5,000 Gold" id="a4" onclick="a4()" class="UP">Both Hands!<p class="why">Double the efficancy!</p><p class="more">Clicking revenue x2</p></li>
+          <li aria-label="Cost 800 Gold" id="b1" onclick="b1()" class="UP">Sharper Pickaxes!<p class="why">This statment has not been evaluated by the Food and Drug Admisistration!</p><p class="more">Pickaxe profit x2</p></li>
+          <li aria-label="Cost 4,000 Gold" id="b2" onclick="b2()" class="UP">New Element!<p class="why">Pickaxium works 3x better than competing brands!</p><p class="more">Pickaxe profit x2</p></li>
+          <li aria-label="Cost 8,000 Gold" id="b3" onclick="b3()" class="UP">Automatic Mechanisms!<p class="why">These pickaxes will mine by themself!(watching them work may be slightly disconcerting)</p><p class="more">Pickaxe profit x2</p></li>
+          <li aria-label="Cost 15,000 Gold" id="b4" onclick="b4()" class="UP">Self-oiling Gears!<p class="why">Make them work so fast they blur!(safty gear recomended)</p><p class="more">Pickaxe profit x2</p></li>
+          <li aria-label="Cost 10,000 Gold" id="c1" onclick="c1()" class="UP">Dwarf Academy!<p class="why">Complete with posh students!</p><p class="more">Dwarf profits x2</p></li>
+          <li aria-label="Cost 20,000 Gold" id="c2" onclick="c2()" class="UP">Dwarf Managers!<p class="why">Down with the worker unions!</p><p class="more">Dwarf profits x2</p></li>
+          <li aria-label="Cost 80,000 Gold" id="c3" onclick="c3()" class="UP">Mysterious Cafeteria Food!<p class="why">Your workers will become mysteriously obedient!</p><p class="more">Dwarf profits x2</p></li>
+          <li aria-label="Cost 160,000 Gold" id="c4" onclick="c4()" class="UP">Paid Holidays!<p class="why">There's nothing someone won't do when you give them paid holidays!</p><p class="more">Dwarf profits x2</p></li>
+          <li aria-label="Cost 100,000 Gold" id="d1" onclick="d1()" class="UP">Deeper Mines!<p class="why">Far over, the misty mountians cold...</p><p class="more">Mine profits x2</p></li>
+          <li aria-label="Cost 500,000 Gold" id="d2" onclick="d2()" class="UP">Wider Mine-Shafts!<p class="why">Five feet wide the door and three may walk abreast...</p><p class="more">Mine profits x2</p></li>
+          <li aria-label="Cost 2,000,000 Gold" id="d3" onclick="d3()" class="UP">Journy to the Center of the Earth!<p class="why">(let's hope that isn't copyrighted)</p><p class="more">Mine profits x2</p></li>
+          <li aria-label="Cost 6,000,000 Gold" id="d4" onclick="d4()" class="UP">Holy Earth!<p class="why">The Earth is now so riddled with holes, the ground is constantly being teared apart by earthquakes!</p><p class="more">Mine profits x2</p></li>
+          <li aria-label="Cost 1,000,000 Gold" id="e1" onclick="e1()" class="UP">Dragon Gold Insurance!<p class="why">Switch to dragon gold insurance!</p><p class="more">Dragon profits x2</p></li>
+          <li aria-label="Cost 5,000,000 Gold" id="e2" onclick="e2()" class="UP">Selective Breeding!<p class="why">Breed the greediest together, and get GREEDIER DRAGONS!(this may not be a good idea)</p><p class="more">Dragon profits x2</p></li>
+          <li aria-label="Cost 8,000,000 Gold" id="e3" onclick="e3()" class="UP">Bad Habits!<p class="why">Sharing may be caring, but I don't care!</p><p class="more">Dragon profits x2</p></li>
+          <li aria-label="Cost 16,000,000 Gold" id="e4" onclick="e4()" class="UP">Dragon Disease!<p class="why">More gold! MORE GOLD! <strong>MORE GOLD!!!</strong></p><p class="more">Dragon profits x2</p></li>
+
+
+
+
+
+          <li aria-label="Cost 100 Gold" id="f1" onclick="f1()" class="UP">The Flammel Effect!<p class="why">Made by Nicolas Flammel himself!</p><p class="more">Philosopher's Stone profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="f2" onclick="f2()" class="UP">Upgrade Stone!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="f3" onclick="f3()" class="UP">Upgrade Stone!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="f4" onclick="f4()" class="UP">Upgrade Stone!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="g1" onclick="g1()" class="UP">Solar Power!<p class="why">WHY did we not think of this before?</p><p class="more">Astroid-mining Station profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="g2" onclick="g2()" class="UP">Self Repairing!<p class="why">Throught the power of AI!</p><p class="more">Astroid-mining Station profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="g3" onclick="g3()" class="UP">Self Repairing!<p class="why">Throught the power of AI!</p><p class="more">Astroid-mining Station profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="g4" onclick="g4()" class="UP">Self Repairing!<p class="why">Throught the power of AI!</p><p class="more">Astroid-mining Station profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="h1" onclick="h1()" class="UP">Leprechaun Hierarchy!<p class="why">Allows for working class!</p><p class="more">Leprechaun profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="h2" onclick="h2()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="h3" onclick="h3()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="h4" onclick="h4()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="i1" onclick="i1()" class="UP">Bubble Baths!<p class="why">Give that fleece a nice good cleaning!</p><p class="more">Golden Sheep profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="i2" onclick="i2()" class="UP">Merino Sheep!<p class="why">Only the finest wool for your lordship!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="i3" onclick="i3()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="i4" onclick="i4()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="j1" onclick="j1()" class="UP">Upgrade Mass Ray!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="j2" onclick="j2()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="j3" onclick="j3()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="j4" onclick="j4()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="k1" onclick="k1()" class="UP">Upgrade Neutron Star Merger!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="k2" onclick="k2()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="k3" onclick="k3()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="k4" onclick="k4()" class="UP">!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+          <li aria-label="Cost 100 Gold" id="l1" onclick="l1()" class="UP">Gold Monopoly!<p class="why">Mine, ALL MINE!(pun intended)</p><p class="more">All profits x2</p></li>
+          <li aria-label="Cost 100 Gold" id="l2" onclick="l2()" class="UP">World Domination!<p class="why">You're next, Universe!</p><p class="more">All profits x2</p></li>
+
+
+
+          <li aria-label="Cost 1,000,000,000,000,000,000 Gold" class="UP"><a href="C:\Users\theho\OneDrive\Desktop\Coding Projects\Otherworld\otherworld.html">The Otherworld Portal</a><p class="why">This portal is not yet ready and should not be used</p><p class="more">A whole new world!</p></li>
+          <br><br>
+        </ul>
+      </div>
+    </details>
+    <details class="boxi" id="b1">
+      <summary>Acheivements</summary>
+      <!--<button onclick="makeSmall">Small</button>
+      <button onclick="makeSemi">Medium</button>
+      <button onclick="makeBig">Big</button>-->
+      <div id="acheive">
+        <button id="noclick1" class="yep">Hands off:<br> never click the astroid and reach 1000 gold</button>
+        <button id="noclick2" class="yep">It is below me to click:<br> never click the astroid and reach 10000 gold</button>
+        <button id="noclick3" class="yep">Untouchable:<br>never click the astroid and reach 100000 gold</button>
+        <button id="click1" class="yep">1 click<span class="hover-text">Click the astroid 1 time</span></button>
+        <button id="click2" class="yep">10 clicks</button>
+        <button id="click3" class="yep">100 clicks</button>
+        <button id="click4" class="yep">1000 clicks</button>
+        <button id="pick1" class="yep">1 pickaxe</button>
+        <button id="pick2" class="yep">5 pickaxes</button>
+        <button id="pick3" class="yep">25 pickaxes</button>
+        <button id="pick4" class="yep">50 pickaxes</button>
+        <button id="pick5" class="yep">100 pickaxes</button>
+        <button id ="dwarf1" class="yep">1 dwarf</button>
+        <button id ="dwarf2" class="yep">5 dwarfs</button>
+        <button id ="dwarf3" class="yep">25 dwarfs</button>
+        <button id ="dwarf4" class="yep">50 dwarfs</button>
+        <button id ="dwarf5" class="yep">100 dwarfs</button>
+        <button id ="mine1" class="yep">1 gold mine</button>
+        <button id ="mine2" class="yep">5 gold mines</button>
+        <button id ="mine3" class="yep">25 gold mines</button>
+        <button id ="mine4" class="yep">50 gold mines</button>
+        <button id ="mine5" class="yep">100 gold mines</button>
+        <button id ="dragon1" class="yep">1 dragon</button>
+        <button id ="dragon2" class="yep">5 dragons</button>
+        <button id ="dragon3" class="yep">25 dragons</button>
+        <button id ="dragon4" class="yep">50 dragons</button>
+        <button id ="dragon5" class="yep">100 dragons</button>
+        <button id ="stone1" class="yep">novice alchemist<br>1 philosopher's stone</button>
+        <button id ="stone2" class="yep">5 philosopher's stones</button>
+        <button id ="stone3" class="yep">25 philosopher's stones</button>
+        <button id ="stone4" class="yep">50 philosopher's stones</button>
+        <button id ="stone5" class="yep">100 philosopher's stones</button>
+        <button id ="station1" class="yep">1 astroid-mining station</button>
+        <button id ="station2" class="yep">5 astroid-mining stations</button>
+        <button id ="station3" class="yep">25 astroid-mining stations</button>
+        <button id ="station4" class="yep">50 astroid-mining stations</button>
+        <button id ="station5" class="yep">100 astroid-mining stations</button>
+        <button id ="lep1" class="yep">1 leprechaun</button>
+        <button id ="lep2" class="yep">5 leprechauns</button>
+        <button id ="lep3" class="yep">25 leprechauns</button>
+        <button id ="lep4" class="yep">50 leprechauns</button>
+        <button id ="lep5" class="yep">100 leprechauns</button>
+        <button id ="sheep1" class="yep">1 golden sheep</button>
+        <button id ="sheep2" class="yep">5 golden sheep</button>
+        <button id ="sheep3" class="yep">Shepherd<br>25 golden sheep</button>
+        <button id ="sheep4" class="yep">50 golden sheep</button>
+        <button id ="sheep5" class="yep">100 golden sheep</button>
+        <button id ="ray1" class="yep">1 mass ray</button>
+        <button id ="ray2" class="yep">5 mass rays</button>
+        <button id ="ray3" class="yep">25 mass rays</button>
+        <button id ="ray4" class="yep">50 mass rays</button>
+        <button id ="ray5" class="yep">100 mass rays</button>
+        <button id ="merger1" class="yep">1 neutron star merger</button>
+        <button id ="merger2" class="yep">5 neutron star mergers</button>
+        <button id ="merger3" class="yep">25 neutron star mergers</button>
+        <button id ="merger4" class="yep">50 neutron star mergers</button>
+        <button id ="merger5" class="yep">100 neutron star mergers</button>
+      </div>
+    </details>
+    <details class="boxi" id="b2">
+          <summary>Gold Profits</summary>
+          <p id="gpm">0 Gold Per Minute</p>
+          <p id="g0pher">0 Gold Per Hour</p>
+          <p id="gpd">0 Gold Per Day</p>
+          <p id="gpw">0 Gold Per Week</p>
+          <p id="gpM">0 Gold Per Month</p>
+          <p id="gpy">0 Gold Per Year</p>
+          <p id="totalGold">0 Lifetime Gold Profits</p>
+    </details>
+    <details class="boxi" id="b3">
+          <summary>Settings</summary>
+          <div id="settings">
+            <div class="con-tooltip">
+              <button onclick="save()" class="set" type="button">SAVE</button>
+              <div class="tooltipy ">
+                <p>Manually save your progress (autosaves every 15 seconds)</p>
+              </div>
+            </div>
+            <div class="con-tooltip">
+              <button onclick="restart()" class="set" type="button">RESTART</button>
+              <div class="tooltipy ">
+                <p>Undo all your progress</p>
+              </div>
+            </div>
+            <div class="con-tooltip">
+              <button onclick="dark()" class="set" type="button">DARK</button>
+              <div class="tooltipy ">
+                <p>Change to the dark theme</p>
+              </div>
+            </div>
+            <div class="con-tooltip">
+              <button onclick="light()" class="set" type="button">LIGHT</button>
+              <div class="tooltipy ">
+                <p>Return to the light theme</p>
+              </div>
+            </div>
+            <div class="con-tooltip">
+              <button class="set" type="button"><a onClick="music()">MUSIC</a></button>
+              <div class="tooltipy ">
+                <p>Turn music on or off</p>
+              </div>
+            </div>
+            <audio id="myAudio" src="Sounds & Music/BANJO COUNTRY.mp3" preload="auto" controls loop>
+            </audio>
+            </div>
+    </details>
+    <details class="boxi" id="b4">
+          <summary>Ad</summary>
+          Get your consumerism 70% percent off today! Limited time offer! (Not including tax and outrageous shipping prices)
+    </details>
+  </div>
+</div>
+<!--=========================================================
+          Buildings
+===========================================================-->
+<div id="rightplease">
+    <div id="buildings">
+      <a href="javascript:void(0)" class="tooltip" id="tool" ><p class="hide">link</p>
+        <button class="info" onclick="bTool()" id="bTools">Better Tools <br>Tool Level 1 <br>Cost: 10 Gold</button><br>
+        <span>Better Tools <br> +1 gold per click<br>Better tools, better mining?</span>
+      </a>
+      <a href="#" class="tooltip" id="pickaxe" ><p class="hide">link</p>
+        <button class="info" onclick="buyPickaxe()" id="buyPickaxe">Pickaxe <br>(You have 0) <br>Cost: 25 Gold</button><br>
+        <span id="pickaxeGolld">Pickaxe <br> 0.5 GPS each<br> Producing 0 GPS<br>A sturdy pickaxe to mine gold with</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="hireDwarf()" id="hireDwarf">Dwarf <br>(You have 0) <br>Cost: 100 Gold</button><br>
+        <span id="dwarfGolld">Dwarf <br> 2 GPS each<br> Producing 0 GPS<br>An assistant to help you mine gold</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="openMine()" id="openMine">Gold Mine <br>(You have 0) <br>Cost: 25,000 Gold</button><br>
+        <span id="mineGolld">Gold Mine <br> 100 GPS each<br> Producing 0 GPS<br> A new mine to mine gold in</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="hireDragon()" id="hireDragon">Dragon <br>(You have 0) <br>Cost: 150,000 Gold</button><br>
+        <span id="dragonGolld">Dragon <br> 2,000 GPS each<br> Producing 0 GPS<br> A nice dragon to steal gold and hoard it</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="buyStone()" id="buyStone">Philosopher's Stone <br>(You have 0) <br>Cost: 3,000,000 Gold</button><br>
+        <span id="stoneGolld">Philosopher's Stone <br> 10,000 GPS each<br> Producing 0 GPS<br> An alchemy stone that turns ordinary rocks into gold</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="openStation()" id="openStation">Astroid-mining Station <br>(You have 0) <br>Cost: 250,000,000 Gold<p class="tooltiptext"></p></button><br>
+        <span id="stationGolld">Astroid-mining Station <br> 85,000 GPS each<br> Producing 0 GPS<br> A space station that mines astroids for gold</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="hireleprechaun()" id="hireLeprechaun">Leprechaun <br>(You have 0) <br>Cost: 1,000,000,000 Gold</button><br>
+        <span id="lepGolld">Leprechaun <br> 1,000,000 GPS each<br> Producing 0 GPS<br> Uses magical leprechaun powers to find gold at the end of rainbows</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="hireSheep()" id="hireSheep">Golden Sheep <br>(You have 0) <br>Cost: 250,000,000,000 Gold</button><br> <!-- golden fleece -->
+        <span id="sheepGolld">Golden Sheep <br> 10,000,000 GPS each<br> Producing 0 GPS<br> A cute round fluffy sheep with golden fleece</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="buyRay()" id="buyRay">Mass Ray each<br> Producing 0 GPS<br>(You have 0) <br>Cost: 2,000,000,000,000 Gold</button><br>
+        <span id="rayGolld">Mass Ray <br> 1,000,000,000 GPS each<br> Turns mass into gold</span>
+      </a>
+      <a href="#" class="tooltip"><p class="hide">link</p>
+        <button class="info" onclick="buyMerger()" id="buyMerger">Neutron Star Merger<br>(You have 0) <br>Cost: 200,000,000,000,000 Gold</button><br>
+        <span id="mergerGolld">Neutron Star Merger<br> 10,000,000,000 GPS each<br> Producing 0 GPS<br> Merges neutron stars to create gold (find what you want at it's source :).</span>
+      </a>
+      <a id="fifth" href="https://www.fifthtribe.com/"><p class="ad">Need help with your online products and sevices? Use Fifth Tribe Digital Agency!  Learn More!</p></a>
+</div>
+</div>
+  </body>
+  <p id="words">Copyright &copy <span id="copE-right">When this was copyrighted</span> Meeeeee</p>
+
+  <script src="main.js" charset="utf-8" type="text/javascript"></script>
+</html>
