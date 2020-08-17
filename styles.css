@@ -9,4 +9,10 @@ nav {
   color: #fff;
   width: 100%;
   margin: 100px 100px 0px 100px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
