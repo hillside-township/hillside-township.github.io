@@ -22,3 +22,7 @@ a:hover {
   text-shadow: .8px .8px aliceblue;
   font-size: 28px;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
