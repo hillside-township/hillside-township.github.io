@@ -9,3 +9,24 @@ nav {
   color: #fff;
   width: 100%;
 }
+
+a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
