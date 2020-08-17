@@ -4,7 +4,8 @@
 }
 
 nav {
-  background-color: #000;
+  background-color: orange;
+  font-weight: bold;
   color: #fff;
   width: 100%;
 }
