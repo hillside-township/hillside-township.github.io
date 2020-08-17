@@ -1,0 +1,14 @@
+* {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: black;
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  margin: -10px;
+}
