@@ -24,7 +24,3 @@ body {
   color: #fff;
   padding: 15px;
 }
-
-::-webkit-scrollbar {
-    display: none;
-}
