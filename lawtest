@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="lamp-post.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="laws.css">
+    <script src="main.js" charset="utf-8" type="text/javascript"></script>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Hillside Township</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">&#8461;</a> |
+      <a href="news.html">News</a> |
+      <a href="Laws/laws.html">Laws</a> 
+    </nav>
+     <h1 id="thehead">Hillside Township</h1>
+      <p>Where peace and harmony reigns supreme!</p>
+    <div class="newsflash" id="opening">
+      <h1>Hillside Opening Once Again!</h1>
+      <h3>Hillside Will Open Soon, With Proper COVID-19 Precautions!</h3>
+      <p>Starting August 19, 2020 Y.D.(Year of Dispair) Hillside shall open up once again! However, </p>
+    </div>
+    <div class="newsflash" id="election">
+      <h1>Hillside Mayor Elections!</h1>
+      <h3>Vote for the Next Hillside Mayor!</h3>
+      <p>The elections are starting! In the article we will answer a few question. the first of which: Will online citizens get to vote and run for office? Yes, online citizens will get to vote. However, Hillside feels that it's Mayor should be in person to help our citizens in these troubled times.</p>
+    </div>
+    <div class="newsflash" id="repairs">
+      <h1>Extensive Hillside Repairs</h1>
+      <h3>We Need <bold>Your</bold> Help!</h3>
+      <p>Due to a lack of inhabitance, our beloved Hillside is falling into disrepair. When Hillside opens this fall, we shall ask for your help.</p>
+    </div>
+    <div class="copyright">
+      <p>Copyright <span id="currentTime">2020</span> Hillside Township</p>
+    </div>
+  </body>
+</html>
