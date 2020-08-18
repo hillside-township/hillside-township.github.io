@@ -35,6 +35,9 @@ a:hover {
   font-weight: bold;
   color: #fff;
   padding: 15px;
+  width: 100%;
+  margin-top: 25px;
+  position: static;
 }
 
 ::-webkit-scrollbar {
