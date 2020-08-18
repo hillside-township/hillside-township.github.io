@@ -29,9 +29,15 @@ body {
   padding: 10px;
   margin: 15px 45px;
   background-image: url("/Images/fallen-traffic-cone.jpg");
+  background: linear-gradient(rgba(255,255,255,.5), rgb(255 255 255 / 62%)), url("/Images/fallen-traffic-cone.jpg");
   background-size: 100%;
 }
 
+#nopaeg {
+  color: #006cca;
+  font-size: 25px;
+  padding-left: 35px;
+}
 
 .officeholders {
   border: outset 8px yellow;
