@@ -1,6 +1,5 @@
 * {
   font-family: sans-serif;
-  padding: 10px;
 }
 
 h2 {
@@ -9,5 +8,5 @@ h2 {
 
 h1 {
   color: #dc8a00;
-  text-align: center
+  margin-top: 60px;
 }
