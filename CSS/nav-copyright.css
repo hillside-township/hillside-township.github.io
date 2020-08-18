@@ -38,3 +38,10 @@ a:hover {
 ::-webkit-scrollbar {
     display: none;
 }
+
+::selection {
+  background: #10EFB4;
+}
+::-moz-selection {
+  background: #10EFB4;
+}
