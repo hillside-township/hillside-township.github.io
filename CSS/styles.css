@@ -23,3 +23,9 @@ body {
 #subtitle {
   text-align: center; 
 }
+
+.law-edits {
+  border: outset 8px yellow;
+  padding: 10px;
+  margin: 5px 45px;
+}
