@@ -29,16 +29,12 @@ a:hover {
   font-family: monospace;
   color: #fff;
   background-color: black;
-  font-weight: bold;
   color: #fff;
-  padding: 15px;
-  width: 100%;
-  margin-top: 25px;
-  position: static;
   text-align: center;
+  width: auto;
+  padding: 25px;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
-
