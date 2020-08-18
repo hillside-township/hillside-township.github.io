@@ -19,3 +19,7 @@ body {
   margin: 8px 48px;
   color: #fff;
 }
+
+#subtitle {
+  text-align: center; 
+}
