@@ -28,7 +28,10 @@ body {
   border: outset 8px yellow;
   padding: 10px;
   margin: 5px 45px;
+  background-image: url("/Images/fallen-traffic-cone.jpg");
+  background-size: 100%;
 }
+
 
 .officeholders {
   border: outset 8px yellow;
