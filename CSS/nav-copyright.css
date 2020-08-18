@@ -1,6 +1,5 @@
 * {
   font-family: merriweather-sans;
-  text-align: center;
   overflow-x: hidden;
 }
 
@@ -13,6 +12,7 @@ nav {
   padding: 15px;
   position: fixed;
   margin: -10px;
+  text-align: center;
 }
 
 a {
@@ -40,3 +40,4 @@ a:hover {
 ::-webkit-scrollbar {
     display: none;
 }
+
