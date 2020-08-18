@@ -22,6 +22,8 @@ body {
 
 #subtitle {
   text-align: center;
+  text-shadow: 1px 1px #fff;
+  font-size: 25px;
 }
 
 .law-edits {
