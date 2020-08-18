@@ -23,4 +23,6 @@ body {
   font-weight: bold;
   color: #fff;
   padding: 15px;
+  position:fixed;
+  bottom:0;
 }
