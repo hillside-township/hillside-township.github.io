@@ -1,11 +1,17 @@
+* {
+  font-family: Droid Serif;
+}
+
 h2 {
   color: #dc8a00;
+  font-family: oswald;
 }
 
 h1 {
   color: #dc8a00;
   margin-top: 60px;
   text-align: center;
+  font-family: oswald;
 }
 
 #exclude {
