@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,3 +21,8 @@ body {
   color: #fff;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
