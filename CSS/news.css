@@ -1,5 +1,6 @@
 * {
   text-align: center;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,12 +17,11 @@ body {
   border: outset 8px #1c85e1;
   background-color: #1e3800;
   padding: 8px;
-  margin: 8px 48px;
+  margin: 8px;
   color: #fff;
 }
 
 .column {
   float: left;
   width: 50%;
-  background-color: #35533a;
 }
