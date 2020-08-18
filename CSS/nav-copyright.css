@@ -30,6 +30,7 @@ a:hover {
 }
 
 .copyright {
+  font-family: monospace;
   color: #fff;
   background-color: black;
   font-weight: bold;
