@@ -21,10 +21,16 @@ body {
 }
 
 #subtitle {
-  text-align: center; 
+  text-align: center;
 }
 
 .law-edits {
+  border: outset 8px yellow;
+  padding: 10px;
+  margin: 5px 45px;
+}
+
+.officeholders {
   border: outset 8px yellow;
   padding: 10px;
   margin: 5px 45px;
