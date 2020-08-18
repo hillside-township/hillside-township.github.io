@@ -43,7 +43,12 @@ div.polaroid {
   display: inline-block;
   text-align: center;
   font-size: 25px;
+  width: 200px;
+  height: 300px;
+  margin: 15px;
+  vertical-align: top;
 }
+
 
 img {
   width: 200px;
