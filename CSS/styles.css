@@ -34,6 +34,7 @@ body {
   border: outset 8px yellow;
   padding: 10px;
   margin: 5px 45px;
+  text-align: center;
 }
 
 
@@ -43,14 +44,13 @@ div.polaroid {
   display: inline-block;
   text-align: center;
   font-size: 25px;
-  width: 200px;
-  height: 300px;
+  width: 185px;
+  height: 350px;
   margin: 15px;
   vertical-align: top;
 }
 
-
 img {
-  width: 200px;
+  width: 185px;
   height: 200px;
 }
