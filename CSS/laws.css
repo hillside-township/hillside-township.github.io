@@ -1,9 +1,8 @@
 * {
   font-family: Droid Serif;
+  padding: 25px;
 }
 
-body {
-    padding: 25px;
 }
 
 h2 {
@@ -18,6 +17,6 @@ h1 {
   font-family: oswald;
 }
 
-#exclude {
+.exclude {
   font-family:initial;
 }
