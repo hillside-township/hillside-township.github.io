@@ -1,5 +1,6 @@
 * {
   font-family: Droid Serif;
+  padding: 25px;
 }
 
 h2 {
@@ -9,7 +10,7 @@ h2 {
 
 h1 {
   color: #dc8a00;
-  margin-top: 60px;
+  margin-top: 40px;
   text-align: center;
   font-family: oswald;
 }
