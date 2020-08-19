@@ -2,6 +2,10 @@
   font-family: Droid Serif;
 }
 
+body {
+  margin: 40px;
+}
+
 h2 {
   color: #dc8a00;
   font-family: oswald;
