@@ -2,6 +2,10 @@
   font-family: Droid Serif;
 }
 
+body {
+    padding: 25px;
+}
+
 h2 {
   color: #dc8a00;
   font-family: oswald;
@@ -9,7 +13,7 @@ h2 {
 
 h1 {
   color: #dc8a00;
-  margin-top: 60px;
+  margin-top: 40px;
   text-align: center;
   font-family: oswald;
 }
