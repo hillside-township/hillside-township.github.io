@@ -79,3 +79,10 @@ hr {
   border-radius: 25px;
   border: outset 2px lightblue;
 }
+
+.was-added-new {
+  text-decoration: line-through;
+  background-color: #d10000;
+  opacity: .6;
+  color:  #00ff8c;
+}
