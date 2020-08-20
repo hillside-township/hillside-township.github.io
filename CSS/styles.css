@@ -68,6 +68,8 @@ img {
 
 .span-strike-through {
   text-decoration: line-through;
+  background-color: #d10000;
+  opacity: .6;
 }
 
 hr {
