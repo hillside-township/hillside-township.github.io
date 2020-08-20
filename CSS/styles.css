@@ -65,3 +65,7 @@ img {
   width: 185px;
   height: 200px;
 }
+
+.span-strike-through {
+  text-decoration: line-through;
+}
