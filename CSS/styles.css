@@ -38,7 +38,7 @@ body {
 #nopaeg {
   color: #006cca;
   font-size: 25px;
-  padding-left: 35px;
+  padding: 15px;
 }
 
 .officeholders {
@@ -68,4 +68,11 @@ img {
 
 .span-strike-through {
   text-decoration: line-through;
+}
+
+hr {
+  height: 10px;
+  background-color: beige;
+  border-radius: 25px;
+  border: outset 2px lightblue;
 }
