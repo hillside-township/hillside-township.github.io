@@ -89,3 +89,7 @@ hr {
 h5 {
   color: #e8ff00;
 }
+
+.default {
+  font-size: inherit;
+}
