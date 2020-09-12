@@ -3,21 +3,24 @@
 }
 
 body {
-  background-color: antiquewhite;
+   background-image: url("Images/handmadepaper.png")
 }
 
 #thehead {
-  text-shadow: 1px 1px #000;
-  color: #0888f8;
+  text-shadow: 1.5px 1.5px #000;
+  color: #67ff00;
   font-family: cursive;
 }
 
 .newsflash {
   border: outset 8px #1c85e1;
-  background-color: #1e3800;
+  background-color: #FFFDD0;
   padding: 8px;
   margin: 8px;
-  color: #fff;
+  color: #000000;
+  letter-spacing: .3px;
+  word-spacing: 2px;
+  line-height: 25px;
 }
 
 .column {
