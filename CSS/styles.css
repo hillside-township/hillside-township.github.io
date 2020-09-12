@@ -96,3 +96,9 @@ h5 {
 .default {
   font-size: inherit;
 }
+
+.column {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
