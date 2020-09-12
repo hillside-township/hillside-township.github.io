@@ -107,3 +107,7 @@ h5 {
   width: 100%;
   height: auto;
 }
+
+audio {
+  width: 100%;
+}
