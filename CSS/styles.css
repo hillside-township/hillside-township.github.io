@@ -16,8 +16,9 @@ body {
 .newsflash {
   border: outset 8px #1c85e1;
   background-color: #1e3800;
-  padding: 8px;
-  margin: 8px 48px;
+  width: 86%;
+  padding: 5%;
+  margin: 2%;
   color: #fff;
 }
 
@@ -25,8 +26,7 @@ body {
   text-align: center;
   text-shadow: 1px 1px #fff;
   font-size: 25px;
-    font-family: cursive;
-
+  font-family: cursive;
 }
 
 .law-edits {
