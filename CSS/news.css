@@ -12,6 +12,14 @@ body {
   font-family: cursive;
 }
 
+#sub {
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0de689;
+  text-shadow: .5px .5px black;
+}
+
 .newsflash {
   border: outset 8px #1c85e1;
   background-color: #FFFDD0;
