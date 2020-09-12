@@ -10,6 +10,7 @@ body {
   color: #9625ff;
   text-shadow: 2px 2px #444444;
   text-align: center;
+  font-family: cursive;
 }
 
 .newsflash {
@@ -24,6 +25,8 @@ body {
   text-align: center;
   text-shadow: 1px 1px #fff;
   font-size: 25px;
+    font-family: cursive;
+
 }
 
 .law-edits {
