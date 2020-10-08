@@ -122,21 +122,25 @@ audio {
 
 #linkword {
    font-family: monospace;
+   font-size: 2.5em;
+   color: #89ff00;
+   text-shadow: 2px 2px black;
 }
 
 .externalink:link {
-  color: #5e1dcd;
+  color: #fff54d;
   display: block;
   text-decoration: none;
   font-size: 1.5em;
+  text-shadow: 1px 1.5px black;
 }
 
 .externalink:visited {
-  color: #2c50df;
+  color: #FFEB3B;
 }
 
 .externalink:hover {
-  color: #78d92e;
+  color: #33691E;
 }
 
 .externalink:active {
