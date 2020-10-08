@@ -13,14 +13,14 @@ nav {
   opacity: .9;
 }
 
-a {
+.navlink {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
   font-family: times;
 }
 
-a:hover {
+.navlink:hover {
   text-decoration: none;
   color: #7a0808;
   text-shadow: .8px .8px aliceblue;
