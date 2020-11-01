@@ -18,6 +18,7 @@ nav {
   color: #fff;
   font-size: 25px;
   font-family: times;
+  transition: all 2s ease .2s;
 }
 
 .navlink:hover {
