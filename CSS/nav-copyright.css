@@ -15,6 +15,7 @@ nav {
 
 .navlink {
   text-decoration: none;
+  position: relative;
   color: #fff;
   font-size: 25px;
   font-family: times;
@@ -25,6 +26,22 @@ nav {
   text-decoration: none;
   color: #7a0808;
   text-shadow: .8px .8px aliceblue;
+}
+
+.navlink:after {
+  content: "";
+  display: block;
+  height: 2.5px;
+  left: 50%;
+  position: absolute;
+  background: #262626;
+  transition: all 0.3s .2s;
+  width: 0;
+}
+
+.navlink:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .copyright {
