@@ -24,7 +24,7 @@ nav {
 
 .navlink:hover {
   text-decoration: none;
-  color: #7a0808;
+  color: #4d8cd0; /*#7a0808*/
   text-shadow: .8px .8px aliceblue;
 }
 
@@ -34,7 +34,7 @@ nav {
   height: 2.5px;
   left: 50%;
   position: absolute;
-  background: #262626;
+  background: #fff;
   transition: all 0.3s .2s;
   width: 0;
 }
