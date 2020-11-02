@@ -19,7 +19,7 @@ nav {
   color: #fff;
   font-size: 25px;
   font-family: times;
-  transition: all 2s ease .2s;
+  transition: all 1.5s ease .2s;
 }
 
 .navlink:hover {
@@ -35,7 +35,7 @@ nav {
   left: 50%;
   position: absolute;
   background: #fff;
-  transition: all 0.3s .2s;
+  transition: all 1.5s .2s;
   width: 0;
 }
 
