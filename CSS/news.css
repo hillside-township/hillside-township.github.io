@@ -3,7 +3,7 @@
 }
 
 body {
-   background-image: url("/Images/handmadepaper.png")
+   background-image: url("../Images/handmadepaper.png")
 }
 
 #thehead {
@@ -35,4 +35,12 @@ body {
   display: inline-block;
   width: 48%;
   vertical-align: top;
+}
+
+h6 {
+  font-size: 15px;
+  margin: 2px 2px 30px 2px;
+  color: crimson; /* blanchedalmond burlywood*/
+  text-shadow: 1px 1px 2px black;
+  font-weight: 700;
 }

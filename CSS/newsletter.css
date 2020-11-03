@@ -1,0 +1,62 @@
+.issue {
+    border: solid 5px #00008b9e;
+    margin: 20px 40px;
+    padding: 45px;
+    background-color: #d8e0e763;
+    text-align: start;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 2px;
+    text-align: left;
+}
+
+strong {
+    font-style: oblique;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+@font-face {
+  font-family: timesNewerRoman;
+  src: url(../Fonts/TimesNewerRoman-Regular.otf);
+}
+
+p {
+    text-align: left;
+    text-indent: 25px;
+    font-family: timesNewerRoman;
+}
+
+.container {
+  text-align: start;
+}
+
+.name {
+  font-weight: 100;
+  font-size: 25px;
+  text-align: start;
+  margin: 5px;
+  color: #333333;
+}
+
+.job {
+  text-align: start;
+  font-size: 18px;
+}
+
+.link {
+  text-align: start;
+  font-weight: lighter;
+  margin: 2px;
+  font-size: 15px;
+
+}
+
+.eh {
+  text-align: start;
+  font-size: 18px;
+  color: #626161
+}
