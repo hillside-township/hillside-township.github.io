@@ -38,6 +38,7 @@ nav {
   background: #fff;
   transition: all 1.5s .2s;
   width: 0;
+  font-size: 25px;
 }
 
 .navlink:hover:after {
