@@ -62,6 +62,12 @@ div.polaroid {
   height: 350px;
   margin: 15px;
   vertical-align: top;
+  transition: all .5s .5s;
+}
+
+.officeholders:hover .polaroid {
+   transform: rotate(-15deg);
+   transform-origin: right;
 }
 
 .size-e {
