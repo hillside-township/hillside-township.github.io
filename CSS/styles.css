@@ -49,8 +49,8 @@ body {
   padding: 10px;
   margin: 15px 45px;
   text-align: center;
+  perspective: 150px;
 }
-
 
 div.polaroid {
   background-color: #0082e9;
@@ -62,12 +62,12 @@ div.polaroid {
   height: 350px;
   margin: 15px;
   vertical-align: top;
-  transition: all .5s .5s;
+  position: relative;
+  transition: all .5s 5s;
 }
 
-.officeholders:hover .polaroid {
-   transform: rotate(-15deg);
-   transform-origin: right;
+.polaroid:hover {
+   transform: rotateX(5deg);
 }
 
 .size-e {
