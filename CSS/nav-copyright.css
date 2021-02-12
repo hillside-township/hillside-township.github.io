@@ -79,6 +79,7 @@ nav {
    align-items: center;
    font-size: 40px;
    border-radius: 50%;
+   background-color: #f5f5f5;
    box-shadow: 0 0 5px #262626;
    color: #2aafd4;
    transition: .5s;
