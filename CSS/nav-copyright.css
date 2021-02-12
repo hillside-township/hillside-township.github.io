@@ -1,3 +1,7 @@
+body {
+   scroll-behavior: smooth;
+}
+
 nav {
   background-color: black;
   color: #fff;
@@ -55,9 +59,9 @@ nav {
 
 /* Scrollbar and Selection */
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-} */
+}
 
 ::selection {
   background: #10EFB4;
