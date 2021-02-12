@@ -1,45 +1,40 @@
 nav {
   background-color: black;
-  font-weight: bold;
   color: #fff;
-  width: 100%;
-  padding: 15px;
+  padding: 12px;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  margin: -10px;
   text-align: center;
   opacity: .9;
   z-index: 1;
+  font-size: 25px;
+  font-family: "Nunito Sans", times;
 }
 
 .navlink {
   text-decoration: none;
   position: relative;
   color: #fff;
-  font-size: 25px;
-  font-family: times;
-  transition: all 1.5s ease .2s;
+  transition: all .5s ease .2s;
 }
 
 .navlink:hover {
-  text-decoration: none;
-  color: #4d8cd0; /*#7a0808*/
-  text-shadow: .8px .8px aliceblue;
+  color: #7a0808;
+  text-shadow: .5px .5px #fff;
 }
 
 .navlink:after {
   content: "";
-  display: block;
-  height: 2.5px;
-  border-radius: 50%;
-  left: 50%;
   position: absolute;
-  background: #fff;
-  transition: all 1.5s .2s;
+  left: 50%;
+  height: 2.5px;
   width: 0;
-  font-size: 25px;
+  display: block;
+  border-radius: 5px;
+  background: #fff;
+  transition: all .5s .2s;
 }
 
 .navlink:hover:after {
