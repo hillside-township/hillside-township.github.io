@@ -11,6 +11,7 @@ nav {
   margin: -10px;
   text-align: center;
   opacity: .9;
+  z-index: 1;
 }
 
 .navlink {
@@ -46,6 +47,8 @@ nav {
   left: 0;
 }
 
+/* Copyright */
+
 .copyright {
   font-family: monospace;
   color: #fff;
@@ -56,13 +59,12 @@ nav {
   padding: 25px;
 }
 
+/* Scrollbar and Selection */
+
 ::-webkit-scrollbar {
     display: none;
 }
 
 ::selection {
-  background: #10EFB4;
-}
-::-moz-selection {
   background: #10EFB4;
 }
