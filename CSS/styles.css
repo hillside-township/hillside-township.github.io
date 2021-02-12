@@ -47,7 +47,7 @@ body {
    margin: 25px auto;
    border: outset 8px #9a0606;
    border-radius: 5px;
-   font-size: 125%;
+   font-size: 5vh;
 }
 
 .welcome p {
