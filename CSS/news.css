@@ -3,7 +3,11 @@
 }
 
 body {
-   background-image: url("../Images/handmadepaper.png")
+   background-image: url("../Images/handmadepaper.png");
+}
+
+div {
+   border-radius: 5px;
 }
 
 #thehead {
@@ -43,4 +47,68 @@ h6 {
   color: crimson; /* blanchedalmond burlywood*/
   text-shadow: 1px 1px 2px black;
   font-weight: 700;
+}
+
+/* Old Newsletters */
+
+.newsletters .issue {
+   border: solid 5px #00008b9e;
+   margin: 20px 40px;
+   padding: 45px;
+   background-color: #d8e0e763;
+   text-align: start;
+}
+
+.newsletters h4 {
+   font-size: 25px;
+   font-weight: 100;
+   margin: 2px;
+   text-align: left;
+}
+
+.newsletters strong {
+   font-style: oblique;
+   font-size: 16px;
+   margin-left: 25px;
+}
+
+@font-face {
+    font-family: timesNewerRoman;
+    src: url("../Fonts/TimesNewerRoman-Regular.otf") format("opentype");
+}
+
+.newsletters p {
+   text-align: left;
+   text-indent: 25px;
+   font-family: timesNewerRoman;
+}
+
+.newsletters .container {
+   text-align: start;
+}
+
+.newsletters .name {
+   font-weight: 100;
+   font-size: 25px;
+   text-align: start;
+   margin: 5px;
+   color: #333333;
+}
+
+.newsletters .job {
+   text-align: start;
+   font-size: 18px;
+}
+
+.newsletters .link {
+   text-align: start;
+   font-weight: lighter;
+   margin: 2px;
+   font-size: 15px;
+}
+
+.newsletters .eh {
+   text-align: start;
+   font-size: 18px;
+   color: #626161
 }

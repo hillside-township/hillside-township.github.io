@@ -1,0 +1,287 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "Nunito Sans";
+   font-weight: 300;
+}
+
+body {
+   min-height: 100vh;
+   background-color: #f5f5f5;
+}
+
+.page-title {
+   margin-top: 50px;
+   font-size: 3em;
+   color: #9625ff;
+   text-shadow: 2px 2px .5px #444444;
+   text-align: center;
+   font-family: cursive;
+   font-weight: 900;
+}
+
+.page-subtitle {
+   width: 100%;
+   text-align: center;
+   color: #137290;
+   text-shadow: 1px 1px 1px #4c91a7;
+   font-size: 25px;
+   font-family: cursive;
+}
+
+.page-break {
+   height: 1.5px;
+   width: 98%;
+   margin: 50px auto;
+   background-color: #4213d2;
+   border: outset 2px #9d7ff9;
+   border-radius: 5px;
+   box-shadow: 0 0 1.5px #262626;
+}
+
+/* Welcome */
+
+.welcome {
+   width: 80%;
+   padding: 15px;
+   margin: 25px auto;
+   border: outset 8px #9a0606;
+   border-radius: 5px;
+   font-size: 5vh;
+}
+
+.welcome p {
+}
+
+.lamp-post-icon {
+   height: 175px;
+   margin-right: 25px;
+   float: left;
+   border-radius: 50%;
+   shape-outside: circle();
+   transition: 0.5s;
+}
+
+.lamp-post-icon:hover {
+   transform: scale(1.1);
+   margin-right: 50px;
+   box-shadow: 0 0 12px #262626;
+}
+
+/* News */
+
+.news {
+   display: grid;
+   grid-template-columns: 33.333% 33.333% 33.333%;
+}
+
+.news-title {
+   width: 100%;
+   text-align: center;
+   margin: 15px 0;
+   font-weight: 500;
+   font-family: times;
+}
+
+.news-title:hover {
+   animation: text-scale 1s;
+}
+
+@keyframes text-scale {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.2); }
+   100% { transform: scale(1); }
+}
+
+.news .column h2 {
+   margin: auto;
+}
+
+.news .column {
+   text-align: center;
+}
+
+.newsflash {
+   border: inset 5px #1c85e1;
+   padding: 5%;
+   margin: 2%;
+   border-radius: 5px;
+   text-align: left;
+   background-image: url("../Images/handmadepaper.png");
+   box-shadow: 0 0 2px #262626;
+   transition: 0.5s;
+}
+
+.newsflash:hover {
+   transform: scale(1.01);
+}
+
+.newsflash:nth-child(odd) {
+   border-style: outset;
+}
+ol, ul {
+   margin-left: 25px;
+}
+
+.news-image {
+   width: 100%;
+   border-radius: 8px;
+   transition: 0.5s;
+}
+
+.news-image:hover {
+   transform: translateY(-5px) scale(1.05);
+   box-shadow: 0 6px 8px #262626;
+   animation: bob 1.8s infinite;
+   animation-delay: .5s;
+}
+
+@keyframes bob {
+   0% {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 6px 8px #262626;
+   }
+   50% {
+      transform: translateY(2px) scale(1.05);
+      box-shadow: 0 3px 8px #262626;
+   }
+   100% {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 6px 8px #262626;
+   }
+}
+
+audio {
+   transition: 0.5s;
+}
+
+audio:hover {
+   border-radius: 50px;
+   box-shadow: 0 0 10px #262626;
+}
+
+/* Law Edits */
+
+.law-edits {
+   border: outset 6px #809506;
+   border-radius: 8px;
+   padding: 15px;
+   margin: 15px 45px;
+   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url("../Images/fallen-traffic-cone.jpg");
+   background-size: 100%;
+   transition: 0.5s;
+}
+
+.law-edits:hover {
+   box-shadow: 0 0 15px #262626;
+}
+
+.law-edits li {
+   list-style-type: none;
+   line-height: 30px;
+}
+
+.law-hr {
+   height: 5px;
+   background-image: radial-gradient(lightgreen, lightblue);
+   border-radius: 25px;
+   border: none;
+   box-shadow: 0 0 5px #262626;
+   margin: 15px;
+}
+
+.span-strike-through {
+  text-decoration: line-through;
+  background-color: #d10000;
+  opacity: .6;
+  color:  #00ff8c;
+}
+
+.was-added-new {
+  background-color: #68e32c;
+  opacity: .6;
+  color:  #161b07;
+}
+
+/* Officeholders */
+
+.officeholders {
+   text-align: center;
+}
+
+.polaroid {
+   width: 20%;
+   margin: 15px;
+   display: inline-block;
+   vertical-align: top;
+   font-size: 4vh;
+   border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0 0 1px #666666;
+   transition: .8s;
+}
+
+.polaroid:hover {
+   box-shadow: 0 0 5px 1px #666666;
+}
+
+.polaroid img {
+  width: 100%;
+}
+
+.polaroid p {
+   padding: 25px 5px;
+}
+
+/* Lins */
+
+.links {
+   margin: 25px;
+   padding: 15px;
+   border: outset 6px #3476e6;
+   border-radius: 5px;
+   text-align: center;
+   background-image: url("../Images/washi.png");
+}
+
+.links div {
+   display: inline-block;
+   margin: 25px;
+}
+
+.links h5 {
+   margin-top: 15px;
+}
+
+.links a {
+   text-decoration: none;
+}
+
+a {
+   color: #6e6e6e;
+   font-family: "Nunito Sans";
+   text-decoration: none;
+   position: relative;
+}
+
+a:after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  left: 50%;
+  position: absolute;
+  background: #6e6e6e;
+  transition: all .5s;
+  width: 0;
+}
+
+a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* Disqus */
+
+.disqus {
+   margin: 25px;
+}
