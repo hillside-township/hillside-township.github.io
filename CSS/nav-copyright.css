@@ -82,6 +82,7 @@ nav {
    box-shadow: 0 0 5px #262626;
    color: #2aafd4;
    transition: .5s;
+   z-index: 1;
 }
 
 .back-to-top:hover {
