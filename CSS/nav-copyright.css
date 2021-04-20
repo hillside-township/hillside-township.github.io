@@ -1,11 +1,9 @@
-* {
-   scroll-behavior: smooth;
-}
+* { scroll-behavior: smooth; }
 
 nav {
   background-color: black;
   color: #fff;
-  padding: 12px;
+  padding: 2.4vh;
   position: fixed;
   top: 0;
   right: 0;
@@ -13,7 +11,7 @@ nav {
   text-align: center;
   opacity: .9;
   z-index: 1;
-  font-size: 25px;
+  font-size: 4.5vh;
   font-family: "Nunito Sans", times;
 }
 
