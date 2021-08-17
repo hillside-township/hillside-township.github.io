@@ -47,6 +47,7 @@ body {
    border-radius: 5px;
    font-size: 5vh;
    line-height: 350%;
+   box-sizing: border-box;
 }
 
 .lamp-post-icon {
@@ -62,6 +63,42 @@ body {
    transform: scale(1.1);
    margin-right: 50px;
    box-shadow: 0 0 12px #262626;
+}
+
+/* Bestsellers */
+
+.bestsellers {
+   width: 95%;
+   padding: 5vh;
+   margin: 5vh auto;
+   border: outset 8px #069a59;
+   border-radius: 5px;
+   box-sizing: border-box;
+   align-items: center;
+   text-align: center;
+}
+
+.bestsellers h3 {
+   font-size: 7vh;
+   font-weight: 300;
+   font-family: "Nuntio";
+}
+
+.bestsellers img {
+   height: 75vh;
+}
+
+.bestsellers .book {
+   display: inline-block;
+   margin: 2.5vh;
+   border-radius: 5vh;
+   background-color: #77e68b;
+   overflow: hidden;
+}
+
+.bestsellers p {
+   max-width: 50vh;
+   margin: auto;
 }
 
 /* News */
