@@ -5,37 +5,46 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 <!-- Tailwind, 'cause it's cool -->
-<link rel="stylesheet" href="tailwind.css">
+<link rel="stylesheet" href="Assets/Styles/tailwind.css">
 
 <nav class="exclude p-4 bg-white text-xl fixed top-0 right-0 left-0 border-b-4 border-b-teal-400">
    <div class="inline-flex items-center">
-      <img class="mr-4 h-16 inline-block" src="Assets/Images/favicon.png" alt="Lamp-post">
+      <img class="mr-4 h-16 inline-block" src="Assets/Images/lamp-post.png" alt="Lamp-post">
       <a class="-mt-[.35rem] uppercase inline-block text-4xl" href="index.html">Hillside</a>   
       <div class="nav-tip inline-block">
          <p class="mx-6 text-2xl">Schools <span class="bg-teal-300 p-1 px-2 rounded-full text-sm text-white font-bold">NEW!</span></p>
          <div class="nav-hov p-4 py-2 bg-white">
-            <a href="Schools/index.html">Schools</a>
+            <h2 class="m-2 ml-0 text-teal-500 uppercase font-semibold font-oswald">Public School</h2>
+            <a href="Schools/index.html">Enroll</a><br>
+            <a href="Schools/index.html">Visit site</a><br>
+            <a href="Schools/index.html">Sports</a>
          </div>
       </div>
       <div class="nav-tip inline-block">
          <p class="mx-6 text-2xl">Libraries <span class="bg-teal-300 p-1 px-2 rounded-full text-sm text-white font-bold">NEW!</span></p>
          <div class="nav-hov p-4 py-2 bg-white">
-            <a href="Libraries/index.html">Libraries</a>
+            <h2 class="m-2 ml-0 text-teal-500 uppercase font-semibold font-oswald">Public Library</h2>
+            <a href="Libraries/index.html">Visit site</a><br>
+            <a href="Libraries/index.html">Get a card</a>
+            <h2 class="m-2 ml-0 mt-4 text-teal-500 uppercase font-semibold font-oswald">Resources</h2>
+            <a href="Libraries/index.html">Research Papers</a>
          </div>
       </div>
       <div class="nav-tip inline-block">
          <p class="mx-6 text-2xl">Government</p>
-         <div class="nav-hov p-4 py-2 bg-white">
-            <a href="Government/index.html">Government</a>
-            <a class="navlink" title="Hillside's Laws" href="/HTML/laws.html"> Laws of the Land</a> |
+         <div class="nav-hov p-6 pt-2 bg-white">
+            <h2 class="m-2 ml-0 text-teal-500 uppercase font-semibold font-oswald">Laws</h2>
+            <a href="Pages/Gov/laws.html">Laws of the Land</a>
+            <h2 class="m-2 ml-0 mt-4 text-teal-500 uppercase font-semibold font-oswald">Treaties</h2>
+            <a href="Pages/Gov/Bamboo/index.html">The Bamboo Pact</a>
          </div>
       </div>
       <div class="nav-tip inline-block">
          <p class="mx-6 text-2xl">News</p>
          <div class="nav-hov p-6 pt-2 bg-white">
             <h2 class="m-2 ml-0 text-teal-500 uppercase font-semibold font-oswald">Newspapers</h2>
-            <a href="News/index.html">The Pesky Journalist</a><br>
-            <a title="Our Newspaper" href="/HTML/news.html"> The Hillside Chronicle</a>
+            <a href="Pages/News/news.html">The Pesky Journalist</a><br>
+            <a href="Pages/News/newsletters.html"> The Hillside Chronicle</a>
 
             <h2 class="m-2 ml-0 mt-4 text-teal-500 uppercase font-semibold font-oswald">Newsletter</h2>
             <a href="News/index.html">Our Newsletter</a><br>
@@ -57,6 +66,7 @@
 }
 
 .nav-tip a {
+   line-height: 2rem;
    border-bottom: solid .1rem lightgray;
    transition: .1s;
 }
@@ -80,6 +90,38 @@
    box-shadow: 0 0 .2rem #efefef;
    border-radius: .2rem;
    transition: .2s;
-   transition-delay: opacity .2s;
+   transition-delay: .15s;
+}
+
+
+/* Back to top */
+* { scroll-behavior: smooth; }
+
+.back-to-top {
+   box-sizing: border-box;
+   position: fixed;
+   right: 25px;
+   bottom: 25px;
+   height: 60px;
+   width: 60px;
+   padding: 0;
+   padding-bottom: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   border-radius: 50%;
+   background-color: #fff;
+   box-shadow: 0 0 3px #bbb;
+   color: #2aafd4;
+   transition: .5s;
+   z-index: 1;
+}
+
+.back-to-top:hover {
+   text-shadow: 0 .5px 1px #bbb,
+                0 1px 1px #bbb,
+                0 1.5px 1px #bbb,
+                0 2px 1px #bbb;
 }
 </style>

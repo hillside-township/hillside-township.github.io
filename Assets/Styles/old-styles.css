@@ -183,7 +183,7 @@ audio:hover {
    border-radius: 8px;
    padding: 15px;
    margin: 15px 45px;
-   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url("Assets/Images/fallen-traffic-cone.jpg");
+   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url("Assets/Images/Snapshots/fallen-traffic-cone.jpg");
    background-size: 100%;
    transition: 0.5s;
 }
@@ -293,7 +293,7 @@ a:hover:after {
 }
 
 #title-background {
-  background-image: url("Assets/Images/creeping-vines.jpg");
+  background-image: url("Assets/Snapshots/Images/creeping-vines.jpg");
   background-attachment: fixed;
   transition: .5s;
 }
