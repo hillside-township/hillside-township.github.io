@@ -6,6 +6,6 @@ var getCurrentDate = window.setInterval(function() {
 
 // Choose Image
 let updateBackgroundImg = window.setInterval(function() {
-   let backgroundImg = ["Images/plant-invasion.jpg", "Images/messy-house.jpg", "Images/fallen-traffic-cone.jpg", "Images/trees.jpg", "Images/uninhabited.jpg", "Images/wall.jpg", "Images/creeping-vines.jpg"][Math.floor(Math.random() * 7)];
+   let backgroundImg = ["Assets/Images/plant-invasion.jpg", "Assets/Images/messy-house.jpg", "Assets/Images/fallen-traffic-cone.jpg", "Assets/Images/trees.jpg", "Assets/Images/uninhabited.jpg", "Assets/Images/wall.jpg", "Assets/Images/creeping-vines.jpg"][Math.floor(Math.random() * 7)];
    document.querySelector("#title-background").style.backgroundImage = `url("${backgroundImg}")`;
 }, 5000)

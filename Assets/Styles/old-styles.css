@@ -133,7 +133,7 @@ body {
    margin: 2%;
    border-radius: 5px;
    text-align: left;
-   background-image: url("Images/handmadepaper.png");
+   background-image: url("Assets/Images/handmadepaper.png");
    box-shadow: 0 0 2px #262626;
    transition: 0.5s;
 }
@@ -183,7 +183,7 @@ audio:hover {
    border-radius: 8px;
    padding: 15px;
    margin: 15px 45px;
-   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url("Images/fallen-traffic-cone.jpg");
+   background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .6)), url("Assets/Images/fallen-traffic-cone.jpg");
    background-size: 100%;
    transition: 0.5s;
 }
@@ -244,7 +244,7 @@ audio:hover {
    border: outset 6px #3476e6;
    border-radius: 5px;
    text-align: center;
-   background-image: url("Images/washi.png");
+   background-image: url("Assets/Images/washi.png");
 }
 
 .links div {
@@ -293,7 +293,7 @@ a:hover:after {
 }
 
 #title-background {
-  background-image: url("Images/creeping-vines.jpg");
+  background-image: url("Assets/Images/creeping-vines.jpg");
   background-attachment: fixed;
   transition: .5s;
 }

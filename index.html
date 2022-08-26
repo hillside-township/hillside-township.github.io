@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
    <head>
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-      <meta charset="utf-8">
-      <!-- Other -->
-      <link rel="icon" href="Images/favicon.png" type="image/x-icon"/>
-      <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="CSS/nav-copyright.css">
-      <script src="JavaScript/main.js" charset="utf-8" type="text/javascript"></script>
-      <script src="JavaScript/w3.js"></script>
-      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-      <meta http-equiv="Pragma" content="no-cache" />
-      <meta http-equiv="Expires" content="0" />
+      <link rel="icon" href="Assets/Images/favicon.png" type="image/x-icon"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="Assets/Scripts/main.js" charset="utf-8" type="text/javascript"></script>
       <title>Home | Hillside Township</title>
    </head>
    <body>
-      <div w3-include-html="HTML/navbar.html"></div><br><br>
+      <div id="nav"></div>
+      <script>$("#nav").load("Partials/navbar.html");</script>
+
       <div id="title-background" class="section header">
          <h1 class="page-title">Hillside Township</h1>
          <h2 class="page-subtitle">Where peace and harmony reign supreme!</h2>
       </div>
       <div class="welcome">
-         <img class="lamp-post-icon" src="Images/favicon.png" alt="Lamp Post">
+         <img class="lamp-post-icon" src="Assets/Images/favicon.png" alt="Lamp Post">
          <p> Welcome to the online presence of our beloved home, Hillside Township! Read the news, check out the laws, talk with old friends and learn about upcoming events!</p>
       </div>
       <hr class="page-break">
       <div class="bestsellers">
          <h3>Check out some of the bestselling books in Hillside!</h3>
          <div class="book on-philosophy-hardcover">
-            <img src="Images/On_Philosophy_Hardcover.png" alt="On Philosophy Hardcover">
+            <img src="Assets/Images/On_Philosophy_Hardcover.png" alt="On Philosophy Hardcover">
             <h4>On Philosophy</h4>
             <i>Hardcover</i>
             <p>We all know the famous Doth philosopher Professor Eldawon, who has taugh in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if it is understood.</p>
          </div>
          <div class="book on-philosophy-paperback">
-            <img src="Images/On_Philosophy_Paperback.png" alt="On Philosophy Paperback">
+            <img src="Assets/Images/On_Philosophy_Paperback.png" alt="On Philosophy Paperback">
             <h4>On Philosophy</h4>
             <i>Paperback</i>
             <p>We all know the famous Doth philosopher Professor Eldawon, who has taugh in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if it is understood.</p>
          </div>
          <div class="book on-emotion-ebook">
-            <img src="Images/On_Emotion_Ebook.png" alt="On Emotion Ebook">
+            <img src="Assets/Images/On_Emotion_Ebook.png" alt="On Emotion Ebook">
             <h4>On Emotion</h4>
             <i>Ebook</i>
             <p>E. Motion is a Hillside-renound emotiologist and physiicst, and rated this book 5 stars and said "Would buy again, and you should too, I need more money to buy a yatch".</p>
@@ -57,7 +48,7 @@
          <div class="column">
             <h2>Community</h2>
             <div class="newsflash">
-              <img class="news-image" src="Images/creeping-vines.jpg" alt="Creeping Vines">
+              <img class="news-image" src="Assets/Images/creeping-vines.jpg" alt="Creeping Vines">
               <h2>18/5/2020 A.D.</h2>
               <h1>Extensive Hillside Repairs</h1>
               <h3>We Need <bold>Your</bold> Help!</h3>
@@ -69,7 +60,7 @@
             <h2>Politics</h2>
             <div class="newsflash">
                <audio controls>
-                  <source src="Audio/mayor-speeches.mp3" type="audio/mpeg">
+                  <source src="Assets/Audio/mayor-speeches.mp3" type="audio/mpeg">
                </audio>
               <h2>27/8/2020 A.D.</h2>
               <h1>Hillside Mayor Elections!</h1>
@@ -136,39 +127,23 @@
          <h2>Officeholders</h2>
          <h4>Know the authorities of Hillside</h4>
          <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
+            <img class="h-16" src="Assets/Images/anonymous.jpg" alt="Unknown Person">
             <p>Squirrel<br>Mayor</p>
          </div>
          <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
+            <img class="h-16" src="Assets/Images/anonymous.jpg" alt="Unknown Person">
             <p>Scout Trooper 15<br>Second in Command</p>
          </div>
          <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
+            <img class="h-16" src="Assets/Images/anonymous.jpg" alt="Unknown Person">
             <p>Justin<br>HOA Member</p>
          </div>
          <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Alex<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>null<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>NaN<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Name Pending/Redacted<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
+            <img class="h-16" src="Assets/Images/anonymous.jpg" alt="Unknown Person">
             <p>Squirrel<br>Hillside Chronicle<br>Cheif Editor</p>
          </div>
          <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
+            <img class="h-16" src="Assets/Images/anonymous.jpg" alt="Unknown Person">
             <p>Scout Trooper 15<br>Hillside Chronicle<br>Assistant Editor</p>
          </div>
       </div>
@@ -204,26 +179,23 @@
                /**
                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-               var disqus_config = function () {
-                  this.page.url = 'https://hillside-township.github.io';  // Replace PAGE_URL with your page's canonical URL variable
-                  this.page.identifier = 'hillside-township'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-               };
-               (function() { // DON'T EDIT BELOW THIS LINE
-                  var d = document, s = d.createElement('script');
-                  s.src = 'https://hillside-township.disqus.com/embed.js';
-                  s.setAttribute('data-timestamp', +new Date());
-                  (d.head || d.body).appendChild(s);
-               })();
+               // var disqus_config = function () {
+               //    this.page.url = 'https://hillside-township.github.io';  // Replace PAGE_URL with your page's canonical URL variable
+               //    this.page.identifier = 'hillside-township'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+               // };
+               // (function() { // DON'T EDIT BELOW THIS LINE
+               //    var d = document, s = d.createElement('script');
+               //    s.src = 'https://hillside-township.disqus.com/embed.js';
+               //    s.setAttribute('data-timestamp', +new Date());
+               //    (d.head || d.body).appendChild(s);
+               // })();
             </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
          </div>
       </div>
       <footer class="copyright">
          <p>Copyright <span id="currentTime">2020</span> Hillside Township</p>
-         <script src="https://www.w3counter.com/tracker.js?id=134511"></script>
+         <!-- <script src="https://www.w3counter.com/tracker.js?id=134511"></script> -->
       </footer>
-      <script>
-         w3.includeHTML();
-      </script>
    </body>
 </html>
