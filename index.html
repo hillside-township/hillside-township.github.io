@@ -1,178 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-      <meta charset="utf-8">
-      <!-- Other -->
-      <link rel="icon" href="Images/favicon.png" type="image/x-icon"/>
-      <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="CSS/nav-copyright.css">
-      <script src="JavaScript/main.js" charset="utf-8" type="text/javascript"></script>
-      <script src="JavaScript/w3.js"></script>
-      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-      <meta http-equiv="Pragma" content="no-cache" />
-      <meta http-equiv="Expires" content="0" />
-      <title>Home | Hillside Township</title>
-   </head>
-   <body>
-      <div w3-include-html="HTML/navbar.html"></div><br><br>
-      <div id="title-background" class="section header">
-         <h1 class="page-title">Hillside Township</h1>
-         <h2 class="page-subtitle">Where peace and harmony reign supreme!</h2>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="Assets/Images/favicon.png" type="image/x-icon"/>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <title>Hillside Township</title>
+
+   <link rel="stylesheet" href="/Assets/Styles/old-styles.css">
+</head>
+<body>
+   <!-- Landing -->
+   <div id="title-background" class="flex items-center justify-center" style="height: 100vh; background-size: cover; background-image: url('Assets/Images/Snapshots/trees.jpg'); transition: .2s;">
+      <div class="text-center">
+         <h1 class="text-white text-7xl font-oswald" style="text-shadow: 0 0 3.5rem #222;">Hillside Township</h1>
+         <h2 class="text-gray-200 text-4xl font-notosans" style="text-shadow: 0 0 3.5rem #222;">Citizens Last</h2>
       </div>
-      <div class="welcome">
-         <img class="lamp-post-icon" src="Images/favicon.png" alt="Lamp Post">
-         <p> Welcome to the online presence of our beloved home, Hillside Township! Read the news, check out the laws, talk with old friends and learn about upcoming events!</p>
+   </div>
+   <!-- Welcome -->
+   <div class="p-8 px-40">
+      <img class="lamp-post mr-16 h-64 float-left" style="shape-outside: circle();" src="Assets/Images/lamp-post.png" alt="Lamp Post">
+      <p class="text-3xl leading-loose">Welcome to Hillside, the greatest township in the land, a place of strictly regimented peace and government distributed happiness. Thanks to the recent semi-coup, we now also have a library and school! But because the semi-coup occurred recently, they aren't quite finished yet. Our gracious Mayor Squirrel would like to welcome non-citizens with open arms, and has announced that all may walk freely in Hillside. If they have a walking license, that is.</p>
+   </div>
+   <!-- Library -->
+   <div class="bg-gray-50">
+      <div class="p-6">
+         <h2 class="m-4 text-4xl text-center font-oswald">Hillside Public Library</h2>
+         <h3 class="text-3xl text-center">Check out some of the popular books at our library!</h3>   
       </div>
-      <hr class="page-break">
-      <div class="bestsellers">
-         <h3>Check out some of the bestselling books in Hillside!</h3>
-         <div class="book on-philosophy-hardcover">
-            <img src="Images/On_Philosophy_Hardcover.png" alt="On Philosophy Hardcover">
-            <h4>On Philosophy</h4>
+      <div class="m-6 w-96 bg-white inline-block rounded-lg">
+         <img class="rounded-t-lg" src="Assets/Images/On_Philosophy_Hardcover.png" alt="On Philosophy Hardcover">
+         <div class="p-4">
+            <h4 class="font-semibold">On Philosophy</h4>
             <i>Hardcover</i>
-            <p>We all know the famous Doth philosopher Professor Eldawon, who has taugh in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if it is understood.</p>
+            <p>We all know the famous Doth philosopher Professor Eldawon, who has taught in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if understood.</p>   
          </div>
-         <div class="book on-philosophy-paperback">
-            <img src="Images/On_Philosophy_Paperback.png" alt="On Philosophy Paperback">
-            <h4>On Philosophy</h4>
+      </div>
+      <div class="m-6 w-96 bg-white inline-block rounded-lg">
+         <img class="rounded-t-lg" src="Assets/Images/On_Philosophy_Paperback.png" alt="On Philosophy Paperback">
+         <div class="p-4">
+            <h4 class="font-semibold">On Philosophy</h4>
             <i>Paperback</i>
-            <p>We all know the famous Doth philosopher Professor Eldawon, who has taugh in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if it is understood.</p>
+            <p>We all know the famous Doth philosopher Professor Eldawon, who has taught in many prestigious schools and earned various academic awards. <i>On Philosophy</i> is a compilation of his life's work, and is a wonder to behold, if understood.</p>   
          </div>
-         <div class="book on-emotion-ebook">
-            <img src="Images/On_Emotion_Ebook.png" alt="On Emotion Ebook">
-            <h4>On Emotion</h4>
-            <i>Ebook</i>
-            <p>E. Motion is a Hillside-renound emotiologist and physiicst, and rated this book 5 stars and said "Would buy again, and you should too, I need more money to buy a yatch".</p>
-         </div>
-         <br>
-         <i>Hillside Township Public Library</i>
       </div>
-      <hr class="page-break">
-      <h1 class="news-title">The Pesky Journalist</h1>
-      <div class="news">
-         <div class="column">
-            <h2>Community</h2>
-            <div class="newsflash">
-              <img class="news-image" src="Images/creeping-vines.jpg" alt="Creeping Vines">
-              <h2>18/5/2020 A.D.</h2>
-              <h1>Extensive Hillside Repairs</h1>
-              <h3>We Need <bold>Your</bold> Help!</h3>
-              <p>Due to a lack of inhabitance, our beloved Hillside is falling into disrepair. When Hillside opens this fall, we shall ask for your help. The wind and the weather have played part in the temporary destruction of our town. We hope that all citizens shall pich in the reconstruction effort, for this will(probaly) be a fun communal experiance that will encourage bonding with all new Hillside citizens. The paths shall be cleared out, the WSM built, and all houses reconstructed, along with all other things we come across. We thank you in advance.</p>
+   </div>
+   <!-- News -->
+   <div>
+      <h2 class="m-4 text-4xl text-center font-oswald">The Pesky Journalist</h2>
+      <div class="grid grid-cols-2">
+         <div class="m-6 p-4 bg-gray-50 rounded-lg">
+            <h2 class="m-2 mb-6 text-center uppercase text-3xl font-semibold">Community</h2>
+            <div>
+              <img class="rounded-lg" src="Assets/Images/Snapshots/creeping-vines.jpg" alt="Creeping Vines">
+              <h2 class="text-center italic">18/5/2020 A.D.</h2>
+              <h1 class="text-center text-2xl font-semibold">Extensive Hillside Repairs</h1>
+              <h3 class="text-center text-xl">We Need <bold>Your</bold> Help!</h3>
+              <p class="p-4 leading-relaxed">Due to a lack of inhabitants, our beloved Hillside is falling into disrepair. When Hillside opens this fall, we shall ask for your help. The wind and the weather have played part in the temporary destruction of our town. We hope that all citizens shall pitch in the reconstruction effort, for this will(probably) be a fun communal experience that will encourage bonding with all new Hillside citizens. The paths shall be cleared out, the WSM built, and all houses reconstructed, along with all other things we come across. We thank you in advance.</p>
               <i>-Squirrel, Chief Editor of the Hillside Chronicle</i>
            </div>
          </div>
-         <div class="column">
-            <h2>Politics</h2>
-            <div class="newsflash">
+         <div class="m-6 p-4 bg-gray-50 rounded-lg">
+            <h2 class="m-2 pb-6 text-center uppercase text-3xl font-semibold">Politics</h2>
+            <div>
                <audio controls>
-                  <source src="Audio/mayor-speeches.mp3" type="audio/mpeg">
+                  <source src="Assets/Audio/mayor-speeches.mp3" type="audio/mpeg">
                </audio>
-              <h2>27/8/2020 A.D.</h2>
-              <h1>Hillside Mayor Elections!</h1>
-              <h3>Vote for the Next Hillside Mayor!</h3>
-              <p>The mayoral elections are starting! In the article we will answer a few questions. One of the most important questions: Will online citizens get to vote and run for office? Yes, dear reader, online citizens will get to vote. However, Hillside officials feel that the Mayor should be in person to help our citizens in these troubled times. Another important question is: How shall the voting commence? Well, the mayoral candidates should announce it in disqus, then they shall write or record a speech and post it on the main page of the Hillside website. All citizens shall post their vote via disqus as well. We shall be eagerly awaiting your vote this election, and remember, if you don’t vote right, we have an insane asylum for a reason! Best of luck!</p>
+              <h2 class="text-center italic">27/8/2020 A.D.</h2>
+              <h1 class="text-center text-2xl font-semibold">Hillside Mayor Elections!</h1>
+              <h3 class="text-center text-xl">Vote for the Next Hillside Mayor!</h3>
+              <p class="p-4 leading-relaxed">The mayoral elections are starting! In the article we will answer a few questions. One of the most important questions: Will online citizens get to vote and run for office? Yes, dear reader, online citizens will get to vote. However, Hillside officials feel that the Mayor should be in person to help our citizens in these troubled times. Another important question is: How shall the voting commence? Well, the mayoral candidates should announce it in disqus, then they shall write or record a speech and post it on the main page of the Hillside website. All citizens shall post their vote via disqus as well. We shall be eagerly awaiting your vote this election, and remember, if you don’t vote right, we have an insane asylum for a reason! Best of luck!</p>
               <i>-Squirrel, Chief Editor of the Hillside Chronicle</i>
            </div>
          </div>
-         <div class="column">
-            <h2>Business & Sports</h2>
-            <div class="newsflash">
-               <h2>10/9/2020 A.D.</h2>
-               <h1>The New Gym</h1>
-               <h3>HOA Votes to Open Gym!</h3>
-               <p>	The time we have all been waiting for has come: The HOA has finally agreed to make a city gym! As we all know, for years the HOA has been delaying the decision due to financial reasons, which may or may not include the fact that all HOA members live in luxury apartments in the best parts of town. But now, they have put aside their personal needs and will sacrifice their own wellbeing to make sure this town has a gym! It shall be located on Sassafras Lane, near the Murky Donut Shop. The official opening ceremony is this coming Monday! There is only one small setback. The HOA has posted a notice that states the following:</p>
-               <ol>
-                  <li>The gym is not for exercise</li>
-                  <li>No one is to approach the gym</li>
-                  <li>Avert your gaze from the wraiths</li>
-                  <li>Disappearances are to be expected</li>
-                  <li>Ignore the screams</li>
-                  <li>DO NOT ENTER THE GYM</li>
-                  <li>run.</li>
-                  <li>Run.</li>
-                  <li>RUN.</li>
-               </ol>
-               <p>Like I said, only a small setback. The gym will be a place to hold big events, give lectures, and have an excruciatingly painful demise. I just can’t wait until it opens!</p>
-               <i>-Squirrel, Chief Editor of the Hillside Chronicle</i>
-            </div>
-         </div>
+      </div>   
+   </div>
+   <!-- Officeholders -->
+   <div class="bg-gray-50 text-center">
+      <div class="p-6">
+         <h2 class="m-4 text-4xl text-center font-oswald">Officeholders</h2>
+         <h3 class="text-3xl text-center">Know the authorities of Hillside</h3>
       </div>
-      <hr class="page-break">
-      <div class="law-edits">
-         <h2>Latest Law Edits</h2>
-         <h4>Keeping up with the times</h4>
-         <p>In the last month these are the new changes to the laws:</p>
-         <hr class="law-hr">
-         <h2>MAYOR AND OFFICEHOLDERS</h2>
-         <ul>
-            <li>&#x292C; Mayor’s term is one quarter of the school year, or one science and humanities.</li>
-            <li>&#x292C; Mayor is nominated and voted for by citizens and cannot hold office for more than two terms. Any one with two or more felonies on their criminal record can not become Mayor. The Judge decides what qualifies as a felony.</li>
-            <li>&#x292C; The Mayor cannot hold another job while in office unless they are stand-in Mayor.</li>
-            <li>&#x292C; The Mayor must uphold all treaties and pacts and have all party representatives sign the edited version during a public meeting.</li>
-            <li>&#x292C; Every candidate must have a motto or catchy phrase and something they will change for the better.</li>
-            <li>&#x292C; Any Mayor or SiC may be imnectarined by unanimous vote, give or take one.</li>
-            <li>&#x292C; The HOA consists of the Mayor, Second in Command and <span class="span-strike-through">four</span> <span class="was-added-new">five</span> HOA volunteers.</li>
-            <li>&#x292C; The HOA volunteers are voted for every year. They must be eighth graders.</li>
-            <li>&#x292C; The HOA votes one week before the common community.</li>
-            <li>&#x292C; The elections run for two weeks, with a speech per week from each candidate on Monday.</li>
-            <li>&#x292C; The HOA votes the first week, and the common peasants the next week.</li>
-            <li>&#x292C; The votes are announced by the Mayor the day his or her term ends.</li>
-            <li>&#x292C; The previous Mayor shall advise the new Mayor for the first three weeks of their term.</li>
-         </ul>
-         <hr class="law-hr">
-         <p>Please take care to read all edits!</p>
-         <p>(We remove latest edits monthly | last edit: 20/8/2020)</p>
+      <div class="polaroid">
+         <img src="Assets/Images/anonymous.jpg" alt="Unknown Person">
+         <p>Squirrel<br>Mayor</p>
       </div>
-      <hr class="page-break">
-      <div class="sponser links">
-         <h4>Sponsered by Squirrel Enterprise "Customer satisfaction is the least of our priorities"</h4>
+      <div class="polaroid">
+         <img src="Assets/Images/anonymous.jpg" alt="Unknown Person">
+         <p>Scout Trooper 15<br>Second in Command</p>
       </div>
-      <hr class="page-break">
-      <div class="officeholders">
-         <h2>Officeholders</h2>
-         <h4>Know the authorities of Hillside</h4>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Squirrel<br>Mayor</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Scout Trooper 15<br>Second in Command</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Justin<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Alex<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>null<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>NaN<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Name Pending/Redacted<br>HOA Member</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Squirrel<br>Hillside Chronicle<br>Cheif Editor</p>
-         </div>
-         <div class="polaroid">
-            <img src="Images/anonymous.jpg" alt="Unknown Person">
-            <p>Scout Trooper 15<br>Hillside Chronicle<br>Assistant Editor</p>
-         </div>
+      <div class="polaroid">
+         <img src="Assets/Images/anonymous.jpg" alt="Unknown Person">
+         <p>Justin<br>HOA Member</p>
       </div>
-      <hr class="page-break">
+      <div class="polaroid">
+         <img src="Assets/Images/anonymous.jpg" alt="Unknown Person">
+         <p>Squirrel<br>Hillside Chronicle<br>Cheif Editor</p>
+      </div>
+      <div class="polaroid">
+         <img src="Assets/Images/anonymous.jpg" alt="Unknown Person">
+         <p>Scout Trooper 15<br>Hillside Chronicle<br>Assistant Editor</p>
+      </div>
+   </div>
+   <!-- Links -->
+   <div class="links-parent">
       <div class="links">
          <h2 id="linkword">Links</h2>
          <h3>Check Out Some Other Great Sites!</h3>
@@ -180,8 +112,7 @@
             <h5><i>By Squirrel</i></h5>
             <a href="https://meetsquirrel.github.io/">Meet Squirrel</a><br>
             <a href="http://squirrel-314.github.io">Gold Rush</a><br>
-            <a href="https://squirrel-314.github.io/vegetable-dash/">Vegetable Dash</a><br>
-            <a href="https://squirrel-314.github.io/style/">Mat o' Mayo</a>
+            <a href="https://zealous-duck-earrings.cyclic.app/">Vegetable Dash</a><br>
          </div>
          <div class="">
             <h5><i>By Justin</i></h5>
@@ -192,38 +123,39 @@
             <h5><i>By Squirrel & Justin</i></h5>
             <a href="https://hillside-township.github.io/">Hillside Township</a><br>
             <a class="externalink" href="https://schoolarlybay.github.io/">The Schoolarly Bay</a>
+            <a class="externalink" href="https://git-organized.cyclic.app/">Git Organized</a>
             <br><br><br>
          </div>
       </div>
-      <hr class="page-break">
-      <div class="disqus">
-         <div id="disqus_thread">
-         </div>
-         <div>
-            <script>
-               /**
-               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-               var disqus_config = function () {
-                  this.page.url = 'https://hillside-township.github.io';  // Replace PAGE_URL with your page's canonical URL variable
-                  this.page.identifier = 'hillside-township'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-               };
-               (function() { // DON'T EDIT BELOW THIS LINE
-                  var d = document, s = d.createElement('script');
-                  s.src = 'https://hillside-township.disqus.com/embed.js';
-                  s.setAttribute('data-timestamp', +new Date());
-                  (d.head || d.body).appendChild(s);
-               })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-         </div>
-      </div>
-      <footer class="copyright">
-         <p>Copyright <span id="currentTime">2020</span> Hillside Township</p>
-         <script src="https://www.w3counter.com/tracker.js?id=134511"></script>
-      </footer>
+   </div>
+   <div id="nav"></div>
+   <script>$("#nav").load("Partials/navbar.html");</script>
+   <!-- Disqus -->
+   <div class="disqus p-8">
+      <div id="disqus_thread"></div>
       <script>
-         w3.includeHTML();
+         var disqus_config = function () {
+            this.page.url = "https://hillside-township.github.io";
+            this.page.identifier = "hillside-township";
+         };
+         (function() {
+            var d = document, s = d.createElement("script");
+            s.src = "https://hillside-township.disqus.com/embed.js";
+            s.setAttribute("data-timestamp", + new Date());
+            (d.head || d.body).appendChild(s);
+         })();
       </script>
-   </body>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </div>
+   <footer class="copyright">
+      <p>Copyright <span id="currentTime">2022</span> Hillside Township</p>
+      <script src="https://www.w3counter.com/tracker.js?id=134511"></script>
+   </footer>
+   <script>
+      setInterval(() => {
+         let backgroundImg = ["creeping-vines", "fallen-traffic-cone", "messy-house", "plant-invasion", "trees", "uninhabited", "wall"][Math.floor(Math.random() * 7)];
+         document.querySelector("#title-background").style.backgroundImage = `url("Assets/Images/Snapshots/${backgroundImg}.jpg")`;
+      }, 5000);
+   </script>
+</body>
 </html>

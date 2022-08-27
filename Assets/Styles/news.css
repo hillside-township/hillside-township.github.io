@@ -1,22 +1,16 @@
-* {
-  text-align: center;
-}
+body { background-image: url("/Assets/Images/handmadepaper.png"); }
 
-body {
-   background-image: url("../Images/handmadepaper.png");
-}
-
-div {
-   border-radius: 5px;
-}
+div { border-radius: 5px; }
 
 #thehead {
+   text-align: center;
   text-shadow: 1px 1px #000;
   color: #6b30d2;
   font-family: cursive;
 }
 
 #sub {
+   text-align: center;
   font-family: cursive;
   font-size: 18px;
   font-weight: 600;
@@ -74,7 +68,7 @@ h6 {
 
 @font-face {
     font-family: timesNewerRoman;
-    src: url("../Fonts/TimesNewerRoman-Regular.otf") format("opentype");
+    src: url("/Assets/Fonts/TimesNewerRoman-Regular.otf") format("opentype");
 }
 
 .newsletters p {

@@ -1,0 +1,82 @@
+/* Welcome */
+.lamp-post {
+   border-radius: 50%;
+   transition: .2s;
+}
+
+.lamp-post:hover {
+   transform: scale(1.1);
+   box-shadow: 0 0 .2rem #ccc;
+}
+
+
+/* Officeholders */
+.polaroid {
+   width: 15rem;
+   margin: .5rem;
+   display: inline-block;
+   border-radius: 15px;
+   overflow: hidden;
+   transition: .8s;
+}
+
+.polaroid img { width: 15rem; }
+
+.polaroid p {
+   height: 12rem;
+   background-color: #fff;
+}
+
+/* Links */
+.links-parent {
+   position: relative;
+   border-left: solid .5rem #3476e6;
+}
+
+.links-parent::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background-image: url("/Assets/Images/washi.png");
+   opacity: .2;
+   content: "";
+   z-index: -1;
+}
+
+.links {
+   padding: 15px;
+   text-align: center;
+}
+
+.links div {
+   display: inline-block;
+   margin: 25px;
+}
+
+.links h5 { margin-top: 15px; }
+.links a { text-decoration: none; }
+
+.links a {
+   color: #6e6e6e;
+   font-family: "Nunito Sans";
+   text-decoration: none;
+   position: relative;
+}
+
+.links a:after {
+   content: "";
+   display: block;
+   height: 1.5px;
+   left: 50%;
+   position: absolute;
+   background: #6e6e6e;
+   transition: all .5s;
+   width: 0;
+}
+
+.links a:hover:after {
+   width: 100%;
+   left: 0;
+}
